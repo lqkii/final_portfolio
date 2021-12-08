@@ -1,0 +1,127 @@
+@font-face {
+    font-family: akira;
+    src: url(/assets/Akira\ Expanded\ Demo.otf);
+  }
+
+body {
+    height: 2024px;
+    width: 1512;
+    background-image: url("/assets/bg.svg");
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topNav {
+    width: 962px;
+    height: 177px;
+    background-image: url("/assets/rectangle1.svg");
+    background-position: left;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navContainer {
+    width: 730px;
+    height: 177px;
+    top: 0;
+    right: 0px;
+    position: fixed;
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#loki {
+    width: 331px;
+    height: 120px;
+    margin: 24px;
+    background-image: url("/assets/loki.svg");
+    background-position: center;
+}
+
+#stars {
+    width: 26px;
+    height: 21px;
+    margin-right: 10px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+a {
+    font-family: akira;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #ada696;
+
+}
+
+#bottomNav {
+    width: 236px;
+    height: 76px;
+    background-image: url("/assets/rectangle2.svg");
+    background-position: right;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+#social {
+    font-size: 16pt;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+#gsapRnd {
+    width: 1000px;
+    height: 540px;
+    background-position: left;
+    position: absolute;
+    z-index: 1;
+    top: 194px;
+    left: 200px;
+    border-radius: 35%;
+}
+
+#bottleFlip {
+    width: 1000px;
+    height: 540px;
+    background-position: left;
+    position: absolute;
+    z-index: 1;
+    top: 744px;
+    left: 520px;
+    border-radius: 35%;
+}
+
+#htmlExp {
+    width: 1000px;
+    height: 540px;
+    background-position: left;
+    position: absolute;
+    z-index: 1;
+    top: 1420px;
+    left: 280px;
+    border-radius: 35%;
+}
