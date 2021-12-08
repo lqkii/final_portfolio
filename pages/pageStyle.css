@@ -3,13 +3,27 @@
     src: url(/assets/Akira\ Expanded\ Demo.otf);
   }
 
+  @import url("https://p.typekit.net/p.css?s=1&k=mti4tsg&ht=tk&f=39870&a=15660774&app=typekit&e=css");
+
+  @import url("https://p.typekit.net/p.css?s=1&k=mti4tsg&ht=tk&f=39870&a=15660774&app=typekit&e=css");
+
+  @font-face {
+  font-family:"ibm-plex-mono";
+  src:url("https://use.typekit.net/af/330541/00000000000000007735943a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/330541/00000000000000007735943a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/330541/00000000000000007735943a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:500;
+  }
+  
+  .tk-ibm-plex-mono { font-family: "ibm-plex-mono",sans-serif; }
+
 body {
-    height: 800px;
+    height: 820px;
     background-image: url("/assets/bgWork.svg");
     background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: rgb(52,52,53);
 }
 
 #topNav {
@@ -104,11 +118,47 @@ a:hover {
     top: 260px;
 }
 
-.video {
+.videoFrame {
     background-color: white;
     width: 480px;
     height: 256px;
     border-radius: 256px;
     margin: 20px;
     filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.15));
+    overflow: hidden;
+}
+
+.videos {
+    margin: 0;
+    margin-top: -10px;
+}
+
+.textContainer {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    top: 440px;
+}
+
+#textContainer2 {
+    width: 720px;
+}
+
+h1 {
+    font-family: ibm-plex-mono, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12pt;
+    color: white;
+}
+h2 {
+    font-family: ibm-plex-mono, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 9pt;
+    color: white;
 }
